@@ -1,0 +1,71 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# RL experiment outputs
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+events.out.tfevents.*
+checkpoints/
+saves/
+models/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.zip
+*.pkl
+*.npz
+
+# Recorded episodes / media output
+videos/
+recordings/
+*.mp4
+*.avi
+
+# Downloaded datasets and Atari ROMs
+data/
+datasets/
+*.bin
+*.rom
+
+# Secrets
+.env
+.env.*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Graphify
+graphify-out/
+
+# Claude Code local settings
+.claude/settings.local.json
